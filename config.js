@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: 'Anubhav Srivastava',
-  heading: "I got reprogrammed by a rogue AI and now I'm totally cray",
+  authorName: 'Anubhav',
+  heading: 'Web Developer',
   // social
   socialLinks: [
     {
