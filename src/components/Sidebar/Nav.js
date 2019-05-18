@@ -1,6 +1,6 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy';
-import Scroll from './Scroll';
+import Scroll from '../Scroll';
 
 export default function Nav({ sections = [] }) {
   return (

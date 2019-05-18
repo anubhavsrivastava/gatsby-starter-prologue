@@ -11,6 +11,7 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic08.jpg';
+import Scroll from '../components/Scroll';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -36,9 +37,11 @@ const IndexPage = () => (
           </header>
 
           <footer>
-            <a href="#portfolio" className="button">
-              Show me
-            </a>
+            <Scroll type="id" element={'portfolio'}>
+              <a href="#portfolio" className="button">
+                Show me
+              </a>
+            </Scroll>
           </footer>
         </div>
       </section>
